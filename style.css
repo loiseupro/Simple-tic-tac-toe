@@ -1,0 +1,110 @@
+*{
+	font-family: 'Verdana';
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	background-color: #f7f2f2;
+	padding-top: 60px;
+}
+
+.content{
+	width: 70%;
+	background-color: white;
+	display: block;
+	margin: 0 auto;
+	padding: 15px;
+}
+
+.marker{
+	float: left;
+	width: 100%;		
+	margin-bottom: 30px;
+}
+
+.marker .marker-item{
+	float: left;
+	height: 100px;
+	width: 100px;
+	line-height: 25px;
+	text-align: center;
+	margin-right: 30px;
+	border: 2px solid gray;
+	background-color: white;
+}
+
+.marker .marker-item .header{
+	float: left;
+	width: 100%;
+	height: auto;
+	background-color: #f6f6f6;
+	font-size: 20px;
+	line-height: 40px;
+	text-align: center;
+	margin-bottom: 5px;
+}
+
+.marker .marker-item span{
+	float: left;
+	width: 100%;
+	height: auto;
+	font-size: 30px;
+	line-height: 40px;
+	text-align: center;
+}
+
+h1,
+table{
+	margin-bottom: 30px;
+}
+
+table,
+table tr,
+table tr td{
+	border-collapse: collapse;
+	border: 1px solid lightgray;
+}
+
+table tr td{
+	padding: 10px;
+	width: 50px;
+	height: 50px;
+	text-align: center;
+}
+
+table tr td span{		
+	width: 50px;
+	height: 50px;
+	display: block;
+	border-radius: 50%;
+	line-height: 50px;
+	color: white;
+	font-size: 30px;
+}
+
+table tr td span.player-O{
+	background-color: #f6a400;
+}
+
+table tr td span.player-X{
+	background-color: #04AA6D;
+}
+
+table.boardBlocked tr td{
+	opacity: 0.2;
+}
+
+div#result{
+	width: 100%;
+	background-color: #4bace6;
+	padding: 10px 20px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	color: white;
+	display: none;
+}
+
+div#result.visible{
+	display: inherit;
+}
